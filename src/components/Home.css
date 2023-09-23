@@ -1,0 +1,25 @@
+.home{
+    width: 100%;
+   
+}
+.home_header{
+    border-bottom: 2px solid grey;
+    padding-bottom: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+}
+.logo_box{
+    width: 20%;
+    /* border: 2px solid #351c75; */
+    height: 20vh;
+    display: flex;
+}
+.logo_box>img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    height: 100%;
+}
